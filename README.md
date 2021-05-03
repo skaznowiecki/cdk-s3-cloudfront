@@ -3,6 +3,12 @@
 It's a CDK project to create an static web server using s3, cloudfront and certificate manager.
 The idea was create a generic stack which could be configure using environment vars and deploy quickly.
 
+## Pre Requirement
+
+1. cdk
+2. nodejs + ts
+3. You should have a domain zone in aws with dns delegated.
+
 ## Step to deploy
 
 1. Copy `.env.example` to `.env`
